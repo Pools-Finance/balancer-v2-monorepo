@@ -6,6 +6,9 @@ import 'hardhat-ignore-warnings';
 
 import '@balancer-labs/v2-common/setupTests';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { task } from 'hardhat/config';
 import { TASK_TEST } from 'hardhat/builtin-tasks/task-names';
 import { HardhatRuntimeEnvironment } from 'hardhat/types';
