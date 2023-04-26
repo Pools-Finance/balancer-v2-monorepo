@@ -295,4 +295,20 @@ export default {
     sources: './tasks',
   },
   warnings: hardhatBaseConfig.warnings,
+
+  networks: {
+    goerli: {
+      url: process.env.GOERLI_URL,
+      accounts: [process.env.GOERLI_PRIVATE_KEY_1]
+    },
+    fantomtestnet: {
+      url: process.env.FANTOMTESTNET_URL,
+      accounts: [process.env.FANTOMTESTNET_PRIVATE_KEY_1]
+    },
+    defaultConfig: {
+      url: process.env.DEFAULT_URL,
+      gasPrice: "auto",
+      gasMultiplier: 1
+    }
+  },
 };
