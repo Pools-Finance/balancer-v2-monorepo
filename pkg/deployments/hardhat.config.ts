@@ -305,6 +305,10 @@ export default {
       url: process.env.FANTOMTESTNET_URL,
       accounts: [process.env.FANTOMTESTNET_PRIVATE_KEY_1]
     },
+    shimmertestnet: {
+      url: process.env.SHIMMERTESTNET_URL,
+      accounts: [process.env.SHIMMERTESTNET_PRIVATE_KEY_1]
+    },
     defaultConfig: {
       url: process.env.DEFAULT_URL,
       gasPrice: "auto",
