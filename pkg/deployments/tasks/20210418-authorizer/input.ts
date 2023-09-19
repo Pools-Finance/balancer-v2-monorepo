@@ -33,4 +33,7 @@ export default {
   shimmertestnet: {
     admin: '0xdd7069963Ac79E5D879C9Cc9Fd7131Ba822609C3',
   },
+  shimmer: {
+    admin: '0xc7f4EbbC5433b8b1510f2978C8f21850b0c6aeAd',
+  },
 };
